@@ -25,7 +25,28 @@ This is the **first stable release** of the File Drive Clone project. It include
 ---
 
 ## 📂 Folder Structure
-fileshare/ ├── backend/ │ ├── bot/ # GitHub automation bot (fix + dismiss CodeQL) │ ├── middleware/ # Rate limiter │ ├── models/ # Mongoose schemas (User, File) │ ├── routes/ # Auth and file routes │ ├── uploads/ # Uploaded file storage │ ├── server.js # Entry point │ └── package.json # Backend dependencies ├── frontend/ │ ├── css/ # Basic styles │ ├── js/ # Client-side JS (upload, auth) │ ├── index.html # Homepage / file listing │ ├── login.html # Login page │ └── register.html # Register page ├── .gitignore ├── .env.example # Environment variable template ├── README.md └── CHANGELOG.md
+fileshare/
+├── backend/
+│ ├── bot/
+│ ├── middleware/
+│ ├── models/
+│ ├── routes/
+│ ├── uploads/
+│ └── server.js
+├── frontend/
+│ ├── css/
+│ ├── js/
+│ ├── index.html
+│ ├── login.html
+│ └── register.html
+├── .env.example
+├── README.md
+├── package.json
+└── ...
+
+Copy
+Edit
+
 ##
 ---
 
