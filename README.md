@@ -26,6 +26,7 @@ This is the **first stable release** of the File Drive Clone project. It include
 
 ## 📂 Folder Structure
 fileshare/ ├── backend/ │ ├── bot/ # GitHub automation bot (fix + dismiss CodeQL) │ ├── middleware/ # Rate limiter │ ├── models/ # Mongoose schemas (User, File) │ ├── routes/ # Auth and file routes │ ├── uploads/ # Uploaded file storage │ ├── server.js # Entry point │ └── package.json # Backend dependencies ├── frontend/ │ ├── css/ # Basic styles │ ├── js/ # Client-side JS (upload, auth) │ ├── index.html # Homepage / file listing │ ├── login.html # Login page │ └── register.html # Register page ├── .gitignore ├── .env.example # Environment variable template ├── README.md └── CHANGELOG.md
+##
 ---
 
 ## 🧪 Technologies Used
@@ -48,7 +49,7 @@ fileshare/ ├── backend/ │ ├── bot/ # GitHub automation bot (fix + 
 git clone https://github.com/your-username/fileshare_backend.git
 cd fileshare
 ```
-2. Install Backend Dependencies
+###2. Install Backend Dependencies
 ```bash
 cd backend
 npm install
@@ -57,11 +58,11 @@ npm install
 
 Create a .env file in the root of the backend/ directory and copy from .env.example.
 
-3. Run the Backend Server
+###4. Run the Backend Server
 ```bash
 npm start
 ```
-4. Open the Frontend
+###5. Open the Frontend
 Open frontend/index.html in your browser.
 
 📌 Notes
