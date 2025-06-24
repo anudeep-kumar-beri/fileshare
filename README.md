@@ -24,10 +24,6 @@ This is the **first stable release** of the File Drive Clone project. It include
 
 ---
 
-## 📂 Folder Structure
-<pre><code>## 📂 Folder Structure ``` fileshare/ ├── backend/ │ ├── bot/ │ ├── middleware/ │ ├── models/ │ ├── routes/ │ ├── uploads/ │ └── server.js ├── frontend/ │ ├── css/ │ ├── js/ │ ├── index.html │ ├── login.html │ └── register.html ├── .env.example ├── README.md ├── package.json └── ... ``` </code></pre>
-##
----
 
 ## 🧪 Technologies Used
 
